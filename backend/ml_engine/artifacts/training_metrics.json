@@ -1,0 +1,17 @@
+{
+  "model_type": "XGBoost",
+  "accuracy": 0.99995,
+  "weighted_f1": 0.9999500093706182,
+  "cv_mean_f1": 0.9999374853327113,
+  "cv_std_f1": 3.954702466444831e-05,
+  "num_samples_total": 100000,
+  "num_train_samples": 80000,
+  "num_test_samples": 20000,
+  "classes": [
+    "BENIGN",
+    "Botnet",
+    "BruteForce",
+    "DoS/DDoS",
+    "PortScan"
+  ]
+}

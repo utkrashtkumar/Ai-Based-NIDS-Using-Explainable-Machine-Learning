@@ -1,0 +1,7 @@
+{
+  "0": "BENIGN",
+  "1": "Botnet",
+  "2": "BruteForce",
+  "3": "DoS/DDoS",
+  "4": "PortScan"
+}

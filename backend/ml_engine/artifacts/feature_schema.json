@@ -1,0 +1,113 @@
+{
+  "features": [
+    "Flow_Duration",
+    "Total_Fwd_Packets",
+    "Total_Bwd_Packets",
+    "Total_Length_Fwd_Packets",
+    "Total_Length_Bwd_Packets",
+    "Fwd_Packet_Length_Mean",
+    "Fwd_Packet_Length_Std",
+    "Bwd_Packet_Length_Mean",
+    "Bwd_Packet_Length_Std",
+    "Flow_Bytes_s",
+    "Flow_Packets_s",
+    "Flow_IAT_Mean",
+    "Flow_IAT_Std",
+    "Flow_IAT_Max",
+    "SYN_Flag_Count",
+    "FIN_Flag_Count",
+    "RST_Flag_Count",
+    "ACK_Flag_Count",
+    "Down_Up_Ratio",
+    "Average_Packet_Size"
+  ],
+  "classes": [
+    "BENIGN",
+    "DoS/DDoS",
+    "PortScan",
+    "BruteForce",
+    "Botnet"
+  ],
+  "feature_ranges": {
+    "Flow_Duration": {
+      "min": 220.57,
+      "max": 11531424.37
+    },
+    "Total_Fwd_Packets": {
+      "min": 1.0,
+      "max": 195.0
+    },
+    "Total_Bwd_Packets": {
+      "min": 0.0,
+      "max": 29.0
+    },
+    "Total_Length_Fwd_Packets": {
+      "min": 40.0,
+      "max": 15027.1
+    },
+    "Total_Length_Bwd_Packets": {
+      "min": 0.0,
+      "max": 24452.83
+    },
+    "Fwd_Packet_Length_Mean": {
+      "min": 40.0,
+      "max": 535.45
+    },
+    "Fwd_Packet_Length_Std": {
+      "min": 0.0,
+      "max": 245.51
+    },
+    "Bwd_Packet_Length_Mean": {
+      "min": 0.0,
+      "max": 1271.98
+    },
+    "Bwd_Packet_Length_Std": {
+      "min": 0.0,
+      "max": 538.82
+    },
+    "Flow_Bytes_s": {
+      "min": 153.27,
+      "max": 11350651.61
+    },
+    "Flow_Packets_s": {
+      "min": 2.09,
+      "max": 172309.63
+    },
+    "Flow_IAT_Mean": {
+      "min": 5.87,
+      "max": 479073.19
+    },
+    "Flow_IAT_Std": {
+      "min": 0.0,
+      "max": 637383.06
+    },
+    "Flow_IAT_Max": {
+      "min": 11.74,
+      "max": 1467858.6
+    },
+    "SYN_Flag_Count": {
+      "min": 0.0,
+      "max": 195.0
+    },
+    "FIN_Flag_Count": {
+      "min": 0.0,
+      "max": 2.0
+    },
+    "RST_Flag_Count": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ACK_Flag_Count": {
+      "min": 0.0,
+      "max": 48.0
+    },
+    "Down_Up_Ratio": {
+      "min": 0.0,
+      "max": 3.625
+    },
+    "Average_Packet_Size": {
+      "min": 20.82,
+      "max": 845.23
+    }
+  }
+}

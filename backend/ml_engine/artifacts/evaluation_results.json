@@ -1,0 +1,97 @@
+{
+  "accuracy": 1.0,
+  "f1_weighted": 1.0,
+  "f1_macro": 1.0,
+  "roc_auc_macro": 1.0,
+  "roc_auc_weighted": 1.0,
+  "confusion_matrix": {
+    "BENIGN": {
+      "BENIGN": 59999,
+      "Botnet": 0,
+      "BruteForce": 1,
+      "DoS/DDoS": 0,
+      "PortScan": 0
+    },
+    "Botnet": {
+      "BENIGN": 0,
+      "Botnet": 4000,
+      "BruteForce": 0,
+      "DoS/DDoS": 0,
+      "PortScan": 0
+    },
+    "BruteForce": {
+      "BENIGN": 0,
+      "Botnet": 0,
+      "BruteForce": 6000,
+      "DoS/DDoS": 0,
+      "PortScan": 0
+    },
+    "DoS/DDoS": {
+      "BENIGN": 0,
+      "Botnet": 0,
+      "BruteForce": 0,
+      "DoS/DDoS": 15000,
+      "PortScan": 0
+    },
+    "PortScan": {
+      "BENIGN": 0,
+      "Botnet": 0,
+      "BruteForce": 0,
+      "DoS/DDoS": 0,
+      "PortScan": 15000
+    }
+  },
+  "calibrated_confidence_threshold": 0.95,
+  "threshold_calibration": [
+    {
+      "threshold": 0.5,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.55,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.6,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.65,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.7,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.75,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.8,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.85,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.9,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 100.0
+    },
+    {
+      "threshold": 0.95,
+      "false_positive_rate": 0.0,
+      "true_positive_rate": 99.99
+    }
+  ]
+}

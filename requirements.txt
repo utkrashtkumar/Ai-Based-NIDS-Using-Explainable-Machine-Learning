@@ -1,0 +1,14 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+scapy==2.5.0
+xgboost>=2.0.3
+lightgbm==4.3.0
+shap==0.45.0
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2
+psutil==5.9.8
+sqlmodel==0.0.18
+python-multipart==0.0.9
+requests==2.31.0
